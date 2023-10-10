@@ -1,0 +1,25 @@
+{
+  "name": "bullmq-cron",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/express": "^5.8.4",
+    "bullmq": "^4.12.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cron-time-generator": "^2.0.1",
+    "cronstrue": "^2.32.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^4.6.10"
+  }
+}
